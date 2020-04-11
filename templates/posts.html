@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../dist/css/style.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    crossorigin="anonymous">
+
+  <title>Post Dev Connector</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <h1>
+      <a href="dashboard.html">
+        <i class="fas fa-code"></i>
+        DevConnector
+      </a>
+    </h1>
+    <ul>
+      <li><a href="profile.html">Developers</a></li>
+      <li><a href="posts.html">Posts</a></li>
+      <li><a href="dashboard.html"><i class="fas fa-user"></i> Dashboard</a></li>
+      <li><a href="login.html"><i class="fas fa-sign-out"></i> Sign out</a></li>
+    </ul>
+  </nav>
+  <section class="container">
+    <h1 class="large text-primary">Posts</h1>
+    <p class="lead"><i class="fas fa-user"></i> Welcome to the community</p>
+
+    <div class="post-form">
+
+      <div class="post-form-header bg-primary">
+        <h4>Say something...</h4>
+      </div>
+      <form action="" class="form my-1">
+        <textarea name="post" id="post" placeholder="Create a post" rows="6"></textarea>
+        <input type="submit" value="Submit" class="btn btn-dark my-1">
+      </form>
+
+      <div class="posts">
+        <!-- Post 1 -->
+        <div class="post bg-white my-1 p-1">
+          <div>
+            <a href="profile.html">
+              <img class="round-img" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+                alt="">
+            </a>
+            <h4>John Doe</h4>
+          </div>
+          <div>
+            <p class="my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ratione, quos obcaecati
+              iste inventore,
+              odio a aperiam labore odit nostrum, debitis delectus modi ipsam! Nisi neque vero veniam at officia amet
+              labore! Ipsam sunt dicta eius excepturi aut sequi, nemo hic quibusdam suscipit ducimus consectetur itaque
+              voluptatem tempore. Provident, earum.
+            </p>
+            <button class="btn btn-sm"><i class="fas fa-thumbs-up"></i> 4</button>
+            <button class="btn btn-sm"><i class="fas fa-thumbs-down"></i> 1</button>
+            <a href="post.html" class="btn btn-primary btn-sm">Discussion</a>
+          </div>
+        </div>
+        <!-- Post 2 -->
+        <div class="post bg-white my-1 p-1">
+          <div>
+            <a href="profile.html">
+              <img class="round-img" src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+                alt="">
+            </a>
+            <h4>John Doe</h4>
+          </div>
+          <div>
+            <p class="my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ratione, quos obcaecati
+              iste inventore,
+              odio a aperiam labore odit nostrum, debitis delectus modi ipsam! Nisi neque vero veniam at officia amet
+              labore! Ipsam sunt dicta eius excepturi aut sequi, nemo hic quibusdam suscipit ducimus consectetur itaque
+              voluptatem tempore. Provident, earum.
+            </p>
+            <button class="btn btn-sm"><i class="fas fa-thumbs-up"></i> 12</button>
+            <button class="btn btn-sm"><i class="fas fa-thumbs-down"></i> 5</button>
+            <a href="post.html" class="btn btn-primary btn-sm">Discussion</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
