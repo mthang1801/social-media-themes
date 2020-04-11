@@ -1,2 +1,2 @@
 # social-media-themes
-design social media themes with sass
+support front end social-media
